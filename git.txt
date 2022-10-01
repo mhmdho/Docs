@@ -1,0 +1,32 @@
+git branch   ... list of branches
+git branch <brach-name>   ...new branch   
+git branch -d <brach-name>   ...delete branch   
+git branch -m <brach-name>   ...rename branch
+
+git checkout <branch name>   ...swich between branches
+git checkout -b <new-branch>   ...create and swich to new branches
+git checkout -b <new-branch> <existing-branch>   ...create and swich to new branches from existing branch
+git reflog   ...history of checkout operations
+
+...checkout the remote branch
+git fetch --all
+git checkout <remotebranch>
+
+...merge
+# what is Fast Forward Merge?
+git checkout main
+git pull  ...latest update
+git merge <branch>
+
+git merge --no-ff <branch>   ...merges the specified branch into the current branch, but always generates a merge commit 
+
+...Resolving conflict: (just happen in 3-way merge not fast-forward merge)
+git status   ...to find conflict
+
+...resolve conflict
+git add <conflicted file(s)>
+git commit -m "..."
+
+...work on another pc on private git repository:
+git clone https://...
+
