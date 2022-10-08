@@ -26,3 +26,11 @@ Install node:
      echo "deb [signed-by=/usr/share/keyrings/yarnkey.gpg] https://dl.yarnpkg.com/debian stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
      sudo apt-get update && sudo apt-get install yarn
      yarn --version
+
+Install net-tools and Nmap to scan ip information:
+     sudo apt install net-tools
+     ifconfig
+     arp -a
+
+     sudo apt-get install nmap -y
+     sudo nmap -sT -O 192.168.1.0/24
