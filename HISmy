@@ -49,3 +49,8 @@ Creat frontend new project:
      npx create-next-app --tailwindcss   #Next with tailwind and all dependencies
 
      npx create-next-app@latest --ts   #TypeScript
+
+Copy files from server to localhost:
+    mkdir new
+    cd new
+    scp -P 2200 -r root@128.199.22.86:/home/algo/configs/128.199.22.86/wireguard/* /home/thehill/Downloads/new/
