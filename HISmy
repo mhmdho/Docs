@@ -54,3 +54,13 @@ Copy files from server to localhost:
     mkdir new
     cd new
     scp -P 2200 -r root@128.199.22.86:/home/algo/configs/128.199.22.86/wireguard/* /home/thehill/Downloads/new/
+
+Server Port changing:
+    sudo nano /etc/ssh/sshd_config
+    # change From: #Port 22
+	          To: Port 2222
+    sudo systemctl reload sshd
+    sudo ufw allow 2222/tcp
+    useradd -M <username>
+    passwd <username>
+    ssh -p 2222 user@localhost
