@@ -27,6 +27,15 @@ Install node:
      sudo apt-get update && sudo apt-get install yarn
      yarn --version   ...[or]  yarn -v
 
+Creat frontend new project:
+     npx create-react-app <project name>   #React
+     npm start   ...[or] npm run start
+
+     npx create-next-app --example with-tailwindcss   #Next with tailwind
+     npx create-next-app --tailwindcss   #Next with tailwind and all dependencies
+
+     npx create-next-app@latest --ts   #TypeScript
+
 Install net-tools and Nmap to scan ip information:
      sudo apt install net-tools
      ifconfig
@@ -41,19 +50,11 @@ Install putty:
      putty --version  #Verify Installation
      putty  #Run PuTTY
 
-Creat frontend new project:
-     npx create-react-app <project name>   #React
-     npm start   ...[or] npm run start
-
-     npx create-next-app --example with-tailwindcss   #Next with tailwind
-     npx create-next-app --tailwindcss   #Next with tailwind and all dependencies
-
-     npx create-next-app@latest --ts   #TypeScript
 
 Copy files from server to localhost:
     mkdir new
     cd new
-    scp -P 2200 -r root@128.199.22.86:/home/algo/configs/128.199.22.86/wireguard/* /home/thehill/Downloads/new/
+    scp -P 2222 -r root@128.999.22.88:/home/algo/configs/128.999.22.86/wireguard/* /home/thehill/Downloads/new/
 
 Server Port changing:
     sudo nano /etc/ssh/sshd_config
@@ -64,3 +65,7 @@ Server Port changing:
     useradd -M <username>
     passwd <username>
     ssh -p 2222 user@localhost
+
+Connect to server:
+     ssh root@128.999.22.86 -p 2222 -D localhost:2080
+     # Then set socks host in network proxy
