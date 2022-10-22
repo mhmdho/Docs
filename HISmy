@@ -69,3 +69,6 @@ Server Port changing:
 Connect to server:
      ssh root@128.999.22.86 -p 2222 -D localhost:2080
      # Then set socks host in network proxy
+
+Server active tunnels:
+     ps aux | grep 'sshd'
