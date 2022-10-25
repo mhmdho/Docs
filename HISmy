@@ -72,3 +72,16 @@ Connect to server:
 
 Server active tunnels:
      ps aux | grep 'sshd'
+
+Server users and groups:
+     sudo useradd -M USERNAME  # Create user with without a home directory
+     sudo passwd USERNAME  # Create password for the user
+     less /etc/passwd  ...[or] compgen -u  # users list
+     sudo usermod -L USERNAME  # Locks the user out of logging in
+     sudo usermod -U USERNAME  # Unlocks the user
+     grep username /etc/shadow  # Check whether the user is locked
+     # (it is locked if contain "!" after username)
+
+     sudo groupadd mygroup  # Create new group
+     sudo usermod -a -G mygroup mohammad  # Add a user to the group
+     grep mygroup /etc/group  # Group members list
