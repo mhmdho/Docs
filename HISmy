@@ -85,3 +85,7 @@ Server users and groups:
      sudo groupadd mygroup  # Create new group
      sudo usermod -a -G mygroup mohammad  # Add a user to the group
      grep mygroup /etc/group  # Group members list
+
+Forward all traffic to server:
+     sudo apt-get install sshuttle
+     sudo sshuttle -r user@remote_host 0.0.0.0/0 --dns
