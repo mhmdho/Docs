@@ -36,6 +36,12 @@ Creat frontend new project:
 
      npx create-next-app@latest --ts   #TypeScript
 
+Install packages:
+	npm install --save <packages> 
+	npm install --save react-apexcharts apexcharts dayjs
+	npm install tailwindcss postcss autoprefixer
+	npx i react-apexcharts dayjs next/dynamic axios 
+
 Install net-tools and Nmap to scan ip information:
      sudo apt install net-tools
      ifconfig
