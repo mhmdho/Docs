@@ -94,4 +94,4 @@ Server users and groups:
 
 Forward all traffic to server:
      sudo apt-get install sshuttle
-     sudo sshuttle -r user@remote_host 0.0.0.0/0 --dns
+     sudo sshuttle -r root@46.101.137.111:2200 0.0.0.0/0 --dns -x 46.101.137.111
