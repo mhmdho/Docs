@@ -95,3 +95,12 @@ Server users and groups:
 Forward all traffic to server:
      sudo apt-get install sshuttle
      sudo sshuttle -r root@46.101.137.111:2200 0.0.0.0/0 --dns -x 46.101.137.111
+
+Mirror monitors in ubuntu:
+     xrandr --listmonitors  ...[or] xrandr -q  # Displays list
+
+     xrandr --output HDMI-A-2 --same-as DisplayPort-1 --mode 1680x1050  # Mirror monitor while keeping lower display quality
+        ...[or]
+     xrandr --output HDMI-A-3 --output DisplayPort-1 --output HDMI-A-2 --same-as DisplayPort-1 --mode 1680x1050
+     
+     xrandr --output DisplayPort-1 --same-as HDMI-A-2 --scale 2.2857x2.057  # Mirror monitor while keeping higher display quality
