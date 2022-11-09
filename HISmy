@@ -94,7 +94,9 @@ Server users and groups:
 
 Forward all traffic to server:
      sudo apt-get install sshuttle
-     sudo sshuttle -r root@46.101.137.111:2200 0.0.0.0/0 --dns -x 46.101.137.111
+     sudo sshuttle -r root@128.999.22.86:2200 0.0.0.0/0 --dns -x 128.999.22.86
+     # For hotspot sharing:
+     sudo sshuttle -r root@128.999.22.86:2200 0.0.0.0/0 --dns -x 128.999.22.86 -l 0.0.0.0:0
 
 Mirror monitors in ubuntu:
      xrandr --listmonitors  ...[or] xrandr -q  # Displays list
