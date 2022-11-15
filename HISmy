@@ -73,8 +73,17 @@ Server Port changing:
     ssh -p 2222 user@localhost
 
 Connect to server:
-     ssh root@128.999.22.86 -p 2222 -D localhost:2080
+     # Dynamic SSH port forwarding
+     ssh root@128.999.22.86 -p 2222 -D localhost:1080
+     [or]
+     ssh -D 1080 root@128.999.22.86 -p 2222
      # Then set socks host in network proxy
+
+     # Not execute a remote command; not get a shell:
+     ssh -N -D 1080 root@128.999.22.86 -p 2222
+
+     # Run ssh in the background:
+     ssh -f -N -D 1080 root@128.999.22.86 -p 2222
 
 Server active tunnels:
      ps aux | grep 'sshd'
