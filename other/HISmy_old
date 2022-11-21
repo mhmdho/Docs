@@ -1,0 +1,54 @@
+
+  143  npx tailwindcss init -p
+
+
+  102  npm init
+  105  npm init -y
+  103  npm i -D webpack-cli
+
+
+
+
+
+  125  printenv > /tmp/tmp-79857for55wXuTzvGtxt
+
+
+  130  lsb_release -a
+
+
+
+
+  152  sudo apt install nmap 
+  154  sudo apt install proxychains -y
+  156  cd /etc/
+  157  ls
+  158  sudo nano proxychains.conf
+  159  pwd 
+  160  sudo service tor status 
+  161  cd ..
+  162  sudo apt install tor 
+  163  sudo service tor status 
+  164  proxychains firefox 
+  168  sudo apt install net-tools
+  169  ls
+  170  ifconfig 
+  171  proxychains firefox 
+  172  sudo apt install netdiscover 
+  173  proxychains firefox 
+  174  nmap https://yektapayam.ir/ -v
+  175  nslookup https://yektapayam.ir/
+  176  nslookup www.yektapayam.ir
+  177  nmap 104.21.41.196 -sL
+  178  nmap 104.21.41.196 --PA
+  179  nmap 104.21.41.196 -PA
+  180  sudo nmap 104.21.41.196 -PU
+  181  sudo nmap 104.21.41.196 -Pn
+  182  nmap 104.21.41.196 --traceroute
+  183  sudo nmap 104.21.41.196 --traceroute
+  184  sudo -s
+  185  exit 
+  186  cd /etc/
+  187  ls
+  188  sudo nano proxychains.conf
+  189  exit
+  190  history > req

@@ -1,0 +1,745 @@
+    1  sudo su root 
+    2  ping 8.8.8.8
+    3  sudo apt update 
+    4  lbs_release 
+    5  sudo apt install lsb_release 
+    6  ps aux | grep -i apt
+    7  /usr/lib/apt/apt.systemd.daily update
+    8  sudo /usr/lib/apt/apt.systemd.daily update
+    9  sudo su 
+   10  lsb_release -a
+   11  sudo apt update 
+   12  sudo apt upgrade 
+   13  sudo apt git install 
+   14  sudo apt install git
+   15  sudo shutdown now
+   16  ls
+   17  python -V
+   18  python3 -V
+   19  sudo apt-get install python-pip python-dev libpq-dev postgresql postgresql-contrib nginx
+   20  sudo apt install python3-pip
+   21  sudo apt-get install python3-pip python-dev libpq-dev postgresql postgresql-contrib nginx
+   22  sudo apt-get install python3-pip python3-dev libpq-dev postgresql postgresql-contrib nginx
+   23  sudo -U postgres psql 
+   24  sudo -u postgres psql 
+   25  sudo -H install --upgrede pip
+   26  sudo -H install --upgrade pip
+   27  sudo -H pip install --upgrade pip
+   28  sudo -H pip install virtualenv 
+   29  sudo su root 
+   30  sudo -H pip install virtualenv
+   31  sudo -H pip3 install --upgrade pip
+   32  sudo -H pip3 install virtualenv
+   33  sudo pip3 install virtualenv
+   34  sudo python3 -m pip3 install virtualenv
+   35  sudo apt install -y build-essential libssl-dev libffi-dev
+   36  sudo apt install python3.9
+   37  sudo apt install python3.10
+   38  sudo apt install python3.8
+   39  python3.9 -V
+   40  sudo add-apt-repository ppa:deadsnakes/ppa
+   41  sudo apt update 
+   42  sudo apt install python3.9 
+   43  sudo apt install python3.10
+   44  python -V
+   45  python3 -V
+   46  python3.9 -V
+   47  python3.10 -V
+   48  sudo apt install nginx 
+   49  systemctl start nginx 
+   50  systemctl status nginx 
+   51  ifconfig
+   52  sudo apt install net-tools 
+   53  ifconfig 
+   54  firefox 192.168.156
+   55  firefox 192.168.1.156
+   56  sudo pip3 install virtualenv
+   57  virtualenv -V
+   58  virtualenv --version 
+   59  virtualenv hills 
+   60  ls
+   61  cd hills/
+   62  source /bin/activate 
+   63  source bin/activate 
+   64  ls
+   65  cd .. 
+   66  ls
+   67  deactivate 
+   68  sudo rm -rf hills 
+   69  ls
+   70  mkdir project 
+   71  ls
+   72  cd project/
+   73  virtualenv myenv 
+   74  source myenv/bin/activate
+   75  ls
+   76  cd project/
+   77  ls
+   78  source myenv/bin/activate
+   79  cd tradinghills 
+   80  cd TradingHills
+   81  ls
+   82  sudo pip3 install -r requirements 
+   83  sudo su root 
+   84  sudo python3.8 -m pip3 install -r requirements 
+   85  sudo python -m pip install -r requirements 
+   86  sudo pip install -r requirements 
+   87  pip freeze
+   88  sudo python3 install -r requirements 
+   89  sudo pip install -r requirements 
+   90  ls
+   91  pip freeze 
+   92  pip install -r requirements 
+   93  sudo pip install -r requirements 
+   94  sudo su root 
+   95  ls
+   96  pip freeze 
+   97  pip3 install -r requirements 
+   98  pip freeze 
+   99  ls
+  100  pip freeze 
+  101  python3.8 install -r requirements 
+  102  python3 install -r requirements 
+  103  python3.8 -m pip install -r requirements 
+  104  ls
+  105  pwd 
+  106  ls
+  107  cd CandleStickChart/
+  108  ls
+  109  nano settings.py 
+  110  sudo apt update 
+  111  sudo apt upgrade 
+  112  ls
+  113  cd project/
+  114  ls
+  115  cd TradingHills/
+  116  ls
+  117  cd CandleStickChart/
+  118  ls
+  119  nano settings.py
+  120  ls
+  121  cd project/
+  122  ls
+  123  cd TradingHills/
+  124  ls
+  125  cd CandleStickChart/
+  126  ls
+  127  nano settings.py
+  128  sudo -u postgres psql
+  129  ls
+  130  cd project/
+  131  cd TradingHills/
+  132  cd CandleStickChart/
+  133  ls
+  134  nano settings.py
+  135  cd project/
+  136  cd TradingHills/
+  137  pwd 
+  138  cd ..
+  139  py manage.py makemigrations
+  140  python3 manage.py makemigrations
+  141  python3 manage.py collectstatic
+  142  ping 192.168.1.100
+  143  sudo apt-get update
+  144  ls
+  145  cd project
+  146  source myenv/bin/activate
+  147  pip freeze
+  148  pip -v
+  149  pip -V
+  150  pip3 -V
+  151  pip install psycopg2
+  152  pip freeze
+  153  sudo ufw allow 8000
+  154  ufw status 
+  155  ufw -h
+  156  ufw status verbose 
+  157  sudo ufw enabl
+  158  sudo ufw status verbose 
+  159  ufw -h
+  160  ufw list 
+  161  ufw app list 
+  162  sudo ufw app list 
+  163  sudo ufw app info 
+  164  sudo ufw status numbered 
+  165  sudo ufw show ARG 
+  166  sudo ufw version 
+  167  sudo ufw update 
+  168  sudo ufw -U 
+  169  sudo ufw -u
+  170  sudo ufw logging LEVELS
+  171  sudo ufw logging LEVEL
+  172  sudo ufw logging 
+  173  ls
+  174  cd TradingHills/
+  175  ls
+  176  ~/manage.py runserver 192.168.1.156:8000
+  177  manage.py runserver 192.168.1.156:8000
+  178  django-admin.py startproject test32 
+  179  ls
+  180  cd CandleStickChart/
+  181  ls
+  182  cd ..
+  183  ls
+  184  manage.py runserver 192.168.1.156:8000
+  185  nano manage.py
+  186  django-admin createproject testttt
+  187  django-admin startproject testttt
+  188  manage.py runserver 192.168.1.156:8000
+  189  ls
+  190  cd TradingHills/
+  191  manage.py runserver 192.168.1.156:8000
+  192  ls
+  193  py manage.py runserver 192.168.1.156:8000
+  194  python manage.py runserver 192.168.1.156:8000
+  195  python manage.py runserver
+  196  python manage.py migrtate
+  197  python manage.py migrate
+  198  python3 manage.py runserver 192.168.1.156:8000
+  199  ls
+  200  cd CandleStickChart/
+  201  ls
+  202  cd
+  203  sudo ufw status 
+  204  python manage.py runserver
+  205  python3 manage.py runserver
+  206  sudo ufw disable 
+  207  source myenv/bin/activate
+  208  cd TradingHills/
+  209  ls
+  210  manage.py runserver 192.168.1.156:8000
+  211  python3 manage.py runserver 192.168.1.156:8000
+  212  python3 manage.py runserver
+  213  python3 manage.py runserver 192.168.1.156:8000
+  214  python3 manage.py runserver
+  215  python3 manage.py runserver 192.168.1.156:8000
+  216  sudo systemctl start postgresql.service
+  217  sudo postgresql -u psql 
+  218  sudo postgres -u psql 
+  219  sudo postgre -u psql 
+  220  sudo -i -u postgres
+  221  sudo postgre -u psql 
+  222  sudo -i -u postgres
+  223  sudo -i -u majid
+  224  sudo -i -u majid 1q2w3e4r
+  225  sudo -i -u majid '1q2w3e4r'
+  226  sudo -i -u majid -p 1q2w3e4r
+  227  sudo -i -u majid
+  228  sudo -i -u hills
+  229  sudo -u majid psql
+  230  sudo -u hillsdb psql
+  231  sudo -u hilldb psql
+  232  sudo -u postgres hillsdb
+  233  sudo -u postgres psql
+  234  ls
+  235  cd Downloads
+  236  ls
+  237  cd balena-etcher-electron-1.7.9-linux-x64/
+  238  ls
+  239  chmod +x balenaEtcher-1.7.9-x64.AppImage
+  240  ./balenaEtcher-1.7.9-x64.AppImage
+  241  exit 
+  242  sudo apt update 
+  243  sudo apt -y install compiz-gnome 
+  244  sudo apt update 
+  245  sudo aptitude update
+  246  sudo apt-get install aptitude 
+  247  sudo aptitude update
+  248  sudo compiz-gnome 
+  249  compiz 
+  250  sudo systenctl start nginx 
+  251  sudo systemctl start nginx 
+  252  systemctl status nginx 
+  253  su -u postgres 
+  254  sudo su -u postgres 
+  255  sudo SU -u postgres 
+  256  sudo SU postgres 
+  257  sudo su postgres 
+  258  su postgres psql 
+  259  su postgres hillsdb 
+  260  postgres hillsdb 
+  261  -su postgres hillsdb 
+  262  -su postgres 
+  263  su postgres 
+  264  sudo service postgresql status 
+  265  sudo service postgresql stop 
+  266  sudo service postgresql status 
+  267  sudo apt-get --purge remove postgresql postgresql-*
+  268  dpkg -l | grep postgres
+  269  sudo apt update
+  270  sudo apt install postgresql postgresql-contrib
+  271  sudo systemctl start postgresql.service
+  272  sudo -i -u postgres
+  273  su - postgres
+  274   - postgres
+  275  sudo -i -u postgres
+  276  touch psql_command 
+  277  ls
+  278  cd psql_command 
+  279  nano psql_command 
+  280  cat psql_command 
+  281  nano psql_command 
+  282  cat psql_command 
+  283  PostgreSQL, or Postgres, is a relational database management system that provides an implementation of the SQL querying language. It’s standards-compliant and has many advanced features like reliable transactions and concurrency without read locks.
+  284  This guide demonstrates how to quickly get Postgres up and running on an Ubuntu 20.04 server, from installing PostgreSQL to setting up a new user and database. If you’d prefer a more in-depth tutorial on installing and managing a PostgreSQL database, see How To Install and Use PostgreSQL on Ubuntu 20.04.
+  285  Prerequisites
+  286  To follow along with this tutorial, you will need one Ubuntu 20.04 server that has been configured by following our Initial Server Setup for Ubuntu 20.04 guide. After completing this prerequisite tutorial, your server should have a non-root user with sudo permissions and a basic firewall.
+  287  You can also use an interactive terminal that is embedded on this page to experiment with installing and configuring PostgreSQL in this tutorial. Click the following Launch an Interactive Terminal! button to get started.
+  288  ls
+  289  cat psql_command 
+  290  pwd 
+  291  ls 
+  292  sudo apt update 
+  293  sudo apt install software-properties-common apt-transport-https wget
+  294  wget -q https://packagecloud.io/AtomEditor/atom/gpgkey -O- | sudo apt-key add -
+  295  sudo add-apt-repository "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main"
+  296  sudo apt install atom
+  297  sudo apt update 
+  298  cd /etc/
+  299  ls
+  300  cd apt 
+  301  ls
+  302  nano sources.list
+  303  sudo nano /etc/apt/sources.list
+  304  sudo apt update 
+  305  sudo satom 
+  306  sudo atom 
+  307  atom 
+  308  apm install atom-terminal
+  309  sudo apt install apm 
+  310  apt install atom-terminal 
+  311  sudo apt install atom-terminal 
+  312  sudo apt-get install htop
+  313  htop 
+  314  sudo apt update 
+  315  ls
+  316  cd project/
+  317  ls
+  318  cd TradingHills/
+  319  ls
+  320  cd ..
+  321  ls
+  322  source myenv/bin/activate
+  323  pip freeze 
+  324  ls
+  325  cd TradingHills/
+  326  ls
+  327  django-admin startproject 
+  328  django-admin startproject manage.py 192.168.1.156
+  329  ls
+  330  cd ..
+  331  exit 
+  332  SSH 127.0.0.1:8000
+  333  ssh 127.0.0.1:8000
+  334  ssh 192.168.1.156:8000
+  335  ssh 192.168.1.156
+  336  ifconfig 
+  337  ssh tradinghills.com:22
+  338  ssh tradinghills.com
+  339  htop 
+  340  ping 162.0.217.25 
+  341  firefox 162.0.217.25:80 
+  342  firefox 162.0.217.25:443
+  343  sudo apt install zenmap 
+  344  sudo apt install znmap 
+  345  sudo apt install nmap 
+  346  wget http://archive.ubuntu.com/ubuntu/pool/universe/p/pygtk/python-gtk2_2.24.0-5.1ubuntu2_amd64.deb
+  347  sudo apt install ./python-gtk2_2.24.0-5.1ubuntu2_amd64.deb 
+  348  wget http://archive.ubuntu.com/ubuntu/pool/universe/n/nmap/zenmap_7.60-1ubuntu5_all.deb
+  349  sudo apt install ./zenmap_7.60-1ubuntu5_all.deb
+  350  sudo zenmap
+  351  putty 
+  352  sudo -U postgres psql
+  353  sudo -u postgres psql
+  354  pwd 
+  355  ls
+  356  cd project/
+  357  ls
+  358  source myenv/bin/activate 
+  359  pipfreeze 
+  360  pip freeze 
+  361  sudo -u postgres psql 
+  362  sudo -u postgres sql
+  363  sudo -u postgres psql
+  364  ls 
+  365  cd project/
+  366  ls
+  367  cd myenv/
+  368  ls
+  369  cd bin
+  370  ls
+  371  source /activate 
+  372  cd ..
+  373  ls
+  374  cd project/
+  375  source myenv/bin/activate
+  376  pip freeze 
+  377  sudo --login --user=postgres psql
+  378  sudo shutdown now 
+  379  ls 
+  380  cd Downloads/
+  381  ls
+  382  cd balena-etcher-electron-1.7.9-linux-x64/
+  383  ls
+  384  ./balenaEtcher-1.7.9-x64.AppImage 
+  385  cd Downloads/
+  386  ls
+  387  cd balena-etcher-electron-1.7.9-linux-x64/
+  388  ls
+  389  ./balenaEtcher-1.7.9-x64.AppImage 
+  390  ls
+  391  cd Downloads/
+  392  ls
+  393  cd balena-etcher-electron-1.7.9-linux-x64/
+  394  ./balenaEtcher-1.7.9-x64.AppImage 
+  395  sudo shutdown now
+  396  fdisk 
+  397  sudofdisk 
+  398  sudo fdisk 
+  399  fdisk 
+  400  cd Downloads/
+  401  ls
+  402  cd balena-etcher-electron-1.7.9-linux-x64/
+  403  ls
+  404  ./balenaEtcher-1.7.9-x64.AppImage 
+  405  pwd 
+  406  sudo shutdown now 
+  407  ls
+  408  sudo zenmap 
+  409  htop 
+  410  sudo -u postgres psql 
+  411  ifconfig 
+  412  clear
+  413  sudo -u postgres psql 
+  414  pwd 
+  415  firefox 162.0.217.25
+  416  ssh 162.0.217.25
+  417  ls
+  418  cd Downloads/
+  419  ld
+  420  ls
+  421  cd balena-etcher-electron-1.7.9-linux-x64/
+  422  ls
+  423  ./balenaEtcher-1.7.9-x64.AppImage 
+  424  sudo zenmap 
+  425  sudo apt install tor-browser 
+  426  sudo apt install toe
+  427  sudo apt install tor
+  428  sudo add-apt-repository ppa:micahflee/ppa
+  429  sudo apt update 
+  430  sudo apt install torbrowser-luncher 
+  431  sudo apt install torbrowser-launcher 
+  432  sudo service tor status 
+  433  sudo service tor start 
+  434  sudo service tor status 
+  435  tor 
+  436  torbrowser-launcher  
+  437  sudo torbrowser-launcher  
+  438  ls
+  439  cd Downloads/
+  440  ls
+  441  cd balena-etcher-electron-1.7.9-linux-x64/
+  442  ls
+  443  ./balenaEtcher-1.7.9-x64.AppImage 
+  444  sysinfo
+  445  ls
+  446  cd Downloads/
+  447  ls
+  448  cd balena-etcher-electron-1.7.9-linux-x64/
+  449  ls
+  450  ./balenaEtcher-1.7.9-x64.AppImage 
+  451  disks
+  452  cd Downloads/
+  453  ls
+  454  cd balena-etcher-electron-1.7.9-linux-x64/
+  455  ls
+  456  ./balenaEtcher-1.7.9-x64.AppImage 
+  457  ls
+  458  cd 
+  459  cd Downloads/
+  460  ls
+  461  cd balena-etcher-electron-1.7.9-linux-x64/
+  462  ls
+  463  ./balenaEtcher-1.7.9-x64.AppImage 
+  464  cd Downloads/
+  465  ls
+  466  cd balena-etcher-electron-1.7.9-linux-x64/
+  467  ls
+  468  ./balenaEtcher-1.7.9-x64.AppImage 
+  469  cd Downloads/
+  470  ls
+  471  ./balena-etcher-electron-1.7.9-linux-x64/`
+  472  ls
+  473  cd balena-etcher-electron-1.7.9-linux-x64/
+  474  ls
+  475  ./balenaEtcher-1.7.9-x64.AppImage 
+  476  cd Downloads/
+  477  ls
+  478  cd ba
+  479  cd balena-etcher-electron-1.7.9-linux-x64/
+  480  ls
+  481  ./balenaEtcher-1.7.9-x64.AppImage 
+  482  sudo apt update 
+  483  --sudo apt upgade 
+  484  --sudo apt upgrade 
+  485  sudo apt upgrade 
+  486  device.map 
+  487  sudo grub-install 
+  488  sudo apt onstall grub 
+  489  lsblk -f
+  490  cd /usr/
+  491  ls
+  492  cd share/
+  493  ls
+  494  cd /grub
+  495  cd grub 
+  496  ls
+  497  gedit 
+  498  gedit grub-mkconfig_lib 
+  499  update-grub
+  500  sudo update-grub
+  501  sudo grub-mkdevicemap
+  502  sudo update-grub
+  503  sudo su root 
+  504  sudo reboot now 
+  505  cd Downloads/
+  506  ls
+  507  cd balena-etcher-electron-1.7.9-linux-x64/
+  508  ls
+  509  ./balenaEtcher-1.7.9-x64.AppImage 
+  510  sudo ufw status 
+  511  sudo ufw start 
+  512  sudo ufw status 
+  513  sudo ufw reset 
+  514  sudo ufw status 
+  515  sudo ufw enable 
+  516  sudo ufw status 
+  517  sudo ufw version 
+  518  sudo ufw verbose 
+  519  sudo ufw verbose-app
+  520  sudo ufw status verbose 
+  521  sudo apt upgrade 
+  522  cd project/
+  523  ls
+  524  cd myenv/
+  525  ls
+  526  source /bin/activate 
+  527  source bin/activate 
+  528  pipfreeze
+  529  pipfreze
+  530  pipfreeze
+  531  pipfreez
+  532  pip freeze
+  533  ls
+  534  gedit pyvenv.cfg 
+  535  django-admin 
+  536  django-admin test 
+  537  django-admin testserver 
+  538  ls
+  539  cd bin 
+  540  ls
+  541  cat django-admin 
+  542  pip freeze
+  543  htop 
+  544  ifconfig 
+  545  sudo apt update 
+  546  sudo apt upgrade 
+  547  ls
+  548  pwd 
+  549  cd project/
+  550  ls
+  551  cd myenv/
+  552  ls
+  553  cd bin 
+  554  ls
+  555  source activate
+  556  pip frezze
+  557  pip freeze
+  558  python3 -V
+  559  python2 _V 
+  560  python2 -V
+  561  gedit django-admin 
+  562  pip install django gunicorn psycopg2 
+  563  ls
+  564  django-admin.py startproject myproject ~/myproject
+  565  django-admin.py startproject 
+  566  cd ..
+  567  ls
+  568  cd lib/
+  569  ls
+  570  cd ..
+  571  ls
+  572  cd bin/
+  573  ls
+  574  cd .. 
+  575  ls
+  576  cd ..
+  577  ls
+  578  inactive 
+  579  deactive 
+  580  deactivate 
+  581  cd TradingHills/
+  582  LS
+  583  ls
+  584  cd manage.py 
+  585  cd apps/
+  586  ls
+  587  cd trade/
+  588  ls
+  589  django-admin admin.py 
+  590  lsadmin.py 
+  591  cd ..
+  592  ls
+  593  cd CandleStickChart/
+  594  ls
+  595  nano settings.py 
+  596  cd /proc/
+  597  ls
+  598  cd ..
+  599  pwd 
+  600  cd project 
+  601  cd /project 
+  602  cd ..
+  603  ls
+  604  pwd 
+  605  cd 
+  606  ls
+  607  cd /etc/
+  608  ls
+  609  cd nginx/
+  610  ls
+  611  nano nginx.conf 
+  612  cd /etc/
+  613  cd nginx/
+  614  ls
+  615  gedit sites-enabled/
+  616  nano sites-enabled/
+  617  sudo -u postgres psql 
+  618  vi /etc/nginx/sites-enabled/default
+  619  gedit /etc/nginx/sites-enabled/default
+  620  sudo gedit /etc/nginx/sites-enabled/default
+  621  sudo su root 
+  622  firefox 192.168.1.156
+  623  sudo apt-get purge apache2 apache2-utils apache2-bin apache2.2-common
+  624  sudo ufw status 
+  625  sudo ufw verbose-status
+  626  sudo ufw app list 
+  627  sudo ufw status numbered 
+  628  sudo ufw show ARG
+  629  firefox 192.168.1.156:8080
+  630  firefox 192.168.1.156:80
+  631  pwd 
+  632  cd project/
+  633  ls
+  634  cd TradingHills/
+  635  ls
+  636  cd CandleStickChart/
+  637  ls
+  638  sudo systemctl ngnix enable 
+  639  sudo service nginx status 
+  640  sudo service nginx restart 
+  641  sudo service nginx status 
+  642  sudo service apache2 
+  643  sudo apt install apache2
+  644  firefox 192.168.1.156
+  645  sudo service apache2 stop 
+  646  sudo service nginx start 
+  647  firefox 192.168.1.156
+  648  مس
+  649  pwd 
+  650  cd ..
+  651  ls
+  652  cd ..
+  653  ls
+  654  cd home
+  655  ls
+  656  cd hills/
+  657  ls
+  658  cd project/
+  659  ls
+  660  cd TradingHills/
+  661  ls
+  662  cd CandleStickChart/
+  663  ls
+  664  cd ..
+  665  ls
+  666  cd CandleStickChart/
+  667  ls
+  668  cd ..
+  669  cd..
+  670  cd ..
+  671  pwd 
+  672  ls
+  673  source myenv/bin/activate
+  674  django-admin startproject TradingHills/
+  675  django-admin startproject TradingHills ~/CandleStickChart
+  676  django-admin startproject TradingHills/CandleStickChart
+  677  django-admin startproject TradingHills /CandleStickChart
+  678  django-admin startproject TradingHills ~/CandleStickChart
+  679  ls
+  680  cd TradingHills/
+  681  ls
+  682  django-admin startproject CandleStickChart/
+  683  django-admin startproject CandleStickChart/manage.py 
+  684  django-admin startproject CandleStickChart/asgi.py
+  685  django-admin startproject CandleStickChart/settings.py 
+  686  sudo su postgres /psql 
+  687  sudo su postgres 
+  688  sudo su postgres psql 
+  689  sudo -u  postgres psql 
+  690  ls
+  691  cd project/
+  692  ls 
+  693  ls
+  694  cd TradingHills/
+  695  cd CandleStickChart/
+  696  ls
+  697  cd ..
+  698  ls
+  699  nano manage.py 
+  700  cd CandleStickChart/
+  701  ls
+  702  gedit settings.py 
+  703  ls
+  704  sudo nano  /etc/nginx/sites-enabled/default
+  705  sudo apt install proxychains -y
+  706  cd /etc 
+  707  ls
+  708  cd proxychains
+  709  cd proxychain\
+  710  cd proxychain
+  711  ls
+  712  lcate proxychain
+  713  lcate proxychains
+  714  cd //
+  715  cd ..
+  716  ls
+  717  sudo apt-get install proxychains 
+  718  sudo apt install tor 
+  719  systemctl start tor.service 
+  720  systemctl status tor.service 
+  721  pwd 
+  722  ls
+  723  cd home/
+  724  ls
+  725  cd hills/
+  726  ls
+  727  cd ..
+  728  cd /etc/proxychains 
+  729  cd /etc/proxychain
+  730  cd /etc/proxychains4
+  731  cd /etc/proxychains-4
+  732  ls 
+  733  cd /etc/
+  734  ls
+  735  sudo nano proxychains.conf 
+  736  proxychains firefox 
+  737  sudo service tor status
+  738  systemctl enable tor.service 
+  739  sudo nano /etc/proxychains 
+  740  sudo nano /etc/proxychains.conf  
+  741  proxychains firefox 
+  742  sudo nano /etc/proxychains.conf  
+  743  ping 8.8.8.8
+  744  history
+  745  history > his

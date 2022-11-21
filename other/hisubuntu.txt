@@ -1,0 +1,33 @@
+    1  sudo su root 
+    2  sudo apt install net-tools 
+    3  ping 8.8.8.8
+    4  nslookup 8.8.8.8
+    5  nslookup google.com 
+    6  ping 8.8.8.8
+    7  sudo apt update 
+    8  sudo ufw 
+    9  ifconfig
+   10  ping 8.8.8.8
+   11  sudo ufw status 
+   12  sudo apt install ufw 
+   13  sudo systemctl --type==service 
+   14  sudo systemctl
+   15  ping www.google.com 
+   16  sudo apt install htop 
+   17  ping 8.8.8.8
+   18  nslookup www.google.com 
+   19  sudo firefox www.google.com 
+   20  firefox www.google.com 
+   21  ifconfig
+   22  sudo ufw status 
+   23  sudo apt install ufw 
+   24  sudo install ufw 
+   25  ping 8.8.8.8
+   26  cd /etc
+   27  ls
+   28  cd sha
+   29  cd /share
+   30  ls
+   31  ls -la 
+   32  locate sourcelist
+   33  sudo reboot now 
